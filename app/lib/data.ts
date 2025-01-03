@@ -1,5 +1,5 @@
 import { Albums, ImageProps, Posts } from "@/app/lib/types";
-import { getBase64ImageUrl } from "@/app/lib/utils";
+// import { getBase64ImageUrl } from "@/app/lib/utils";
 
 let cachedImageList = [];
 export const fetchImageList = async (): Promise<ImageProps[]> => {
