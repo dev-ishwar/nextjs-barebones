@@ -1,5 +1,7 @@
-import Modal from '@/app/components/modal';
+"use client";
+import dynamic from 'next/dynamic';
 import Login from '@/app/components/login';
+const Modal = dynamic(() => import('@/app/components/modal'), { ssr: false })
 
 export default function Page() {
     return (
